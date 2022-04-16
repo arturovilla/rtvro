@@ -1,3 +1,15 @@
 .Footer {
   padding-top: 1.5vh;
+  text-align: center;
+}
+
+.Iconbox {
+  direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Icons_ {
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
