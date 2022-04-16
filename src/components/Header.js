@@ -1,16 +1,16 @@
 import React from "react";
-import { AppBar, Toolbar, Typography } from "@mui/material";
+import { AppBar, Box, Toolbar, Typography } from "@mui/material";
 import "./css/Header.css";
 
 function Header() {
   return (
-    <div className="Header">
-      <AppBar position="static">
+    <Box className="Header_box">
+      <AppBar position="static" className="Bar_">
         <Toolbar>
           <Typography>NAVBAR SHIT</Typography>
         </Toolbar>
       </AppBar>
-    </div>
+    </Box>
   );
 }
 
